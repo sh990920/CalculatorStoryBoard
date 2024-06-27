@@ -34,20 +34,15 @@ class Calculator {
         var currentNumber = ""
         for char in str {
             if char.isNumber {
-                print(1)
                 currentNumber.append(char)
             } else {
-                print(2)
                 if !currentNumber.isEmpty {
-                    print(3)
                     if let num = Int(currentNumber) {
-                        print(4)
                         result.append(String(num))
                         currentNumber = ""
                     }
                 }
                 if "+-x÷".contains(char) {
-                    print(5)
                     result.append(char)
                 }
             }
