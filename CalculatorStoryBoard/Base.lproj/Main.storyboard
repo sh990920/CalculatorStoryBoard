@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdg-4O-Cdl">
-                                <rect key="frame" x="30" y="259" width="333" height="100"/>
+                                <rect key="frame" x="30" y="200" width="333" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="mdu-TR-E2X"/>
                                 </constraints>
@@ -26,7 +26,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="akd-Tu-J8s">
-                                <rect key="frame" x="21.666666666666657" y="419" width="350" height="350"/>
+                                <rect key="frame" x="21.666666666666657" y="360" width="350" height="350"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="aW8-I8-jAn">
                                         <rect key="frame" x="0.0" y="0.0" width="350" height="80"/>
@@ -415,10 +415,10 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="akd-Tu-J8s" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7FI-Wv-C3V"/>
-                            <constraint firstItem="cdg-4O-Cdl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Hlu-Fw-RE4"/>
+                            <constraint firstItem="cdg-4O-Cdl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="Hlu-Fw-RE4"/>
                             <constraint firstAttribute="trailing" secondItem="cdg-4O-Cdl" secondAttribute="trailing" constant="30" id="IGa-zn-LzI"/>
                             <constraint firstItem="akd-Tu-J8s" firstAttribute="top" secondItem="cdg-4O-Cdl" secondAttribute="bottom" constant="60" id="xri-hM-13F"/>
-                            <constraint firstItem="cdg-4O-Cdl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="yLK-yO-TOb"/>
+                            <constraint firstItem="cdg-4O-Cdl" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="200" id="yLK-yO-TOb"/>
                         </constraints>
                     </view>
                     <connections>
