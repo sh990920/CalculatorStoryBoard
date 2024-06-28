@@ -10,8 +10,8 @@ class ViewController: UIViewController {
         
     }
 
-    @IBAction func numberButton(_ sender: Any) {
-        if let str = textLabel.text, let text = (sender as! UIButton).titleLabel?.text {
+    @IBAction func numberButton(_ sender: UIButton) {
+        if let str = textLabel.text, let text = sender.currentTitle {
             if let num = Int(str), num == 0 {
                 textLabel.text = text
             } else {
@@ -30,8 +30,8 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func operate(_ sender: Any) {
-        if let text = (sender as! UIButton).titleLabel?.text, let textLabelText = textLabel.text {
+    @IBAction func operate(_ sender: UIButton) {
+        if let text = sender.currentTitle, let textLabelText = textLabel.text {
             textLabel.text = textLabelText + text
         }
     }
